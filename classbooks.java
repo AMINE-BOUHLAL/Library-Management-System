@@ -14,38 +14,6 @@ public class classbooks{
             this.dispo=dispo;
         }
 
-    // click droit + GENERATE +GETTER AND SETTER
-    public String getAuteur() {
-        return author;
-    }
-
-    public void setAuteur(String auteur) {
-        this.author = auteur;
-    }
-
-    public String getNom() {
-        return title;
-    }
-
-    public void setNom(String nom) {
-        this.title = nom;
-    }
-
-    public String getISBN() {
-        return ISBN;
-    }
-
-    public void setISBN(String ISBN) {
-        this.ISBN = ISBN;
-    }
-
-    public boolean isDispo() {
-        return dispo;
-    }
-
-    public void setDispo(boolean dispo) {
-        this.dispo = dispo;
-    }
 
     // to string
     @Override
@@ -54,3 +22,4 @@ public class classbooks{
 
     }
 }
+
